@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/randomidentitygenerator",
+  "version": "1.0.0",
+  "description": "Random Identity is a simple tool for generating random identities. It returns a random name, address, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/randomidentitygenerator-API.git"
+  },
+  "keywords": [
+    "random identity"," random identity generator"," random identity api"," random identity tool"," random identity software"," random identity service"," random identity library"," random identity sdk"," random identity code"," random identity script"," random identity program"," random identity application"," random identity app"," random identity utility"," random identity helper"," random identity helper tool"," random identity helper software"," random identity helper service"," random identity helper library"," random identity helper sdk"," random identity helper code"," random identity helper script"," random identity helper program"," random identity helper application"," random identity helper app"," random identity helper tool"," random identity helper utility"," random identity helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/randomidentitygenerator-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/randomidentitygenerator-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
