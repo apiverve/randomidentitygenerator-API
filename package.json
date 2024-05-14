@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/randomidentitygenerator-API.git"
   },
   "keywords": [
-    "random identity"," random identity generator"," random identity api"," random identity tool"," random identity software"," random identity service"," random identity library"," random identity sdk"," random identity code"," random identity script"," random identity program"," random identity application"," random identity app"," random identity utility"," random identity helper"," random identity helper tool"," random identity helper software"," random identity helper service"," random identity helper library"," random identity helper sdk"," random identity helper code"," random identity helper script"," random identity helper program"," random identity helper application"," random identity helper app"," random identity helper tool"," random identity helper utility"," random identity helper"
+    "random identity","random identity generator","random identity api","random identity tool","random identity software"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
