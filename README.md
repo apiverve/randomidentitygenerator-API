@@ -69,20 +69,21 @@ api.execute(function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "name": "Mr. Theodore Hyatt",
-    "username": "Zachery.Veum29",
-    "email": "Keyshawn_Schuppe@gmail.com",
-    "phone": "502-728-4808 x54400",
-    "website": "marta.net",
+    "name": "Desiree VonRueden",
+    "username": "Annie.Terry49",
+    "email": "Durward_Sporer64@hotmail.com",
+    "phone": "443.559.9597",
+    "website": "kamille.name",
     "company": {
-      "name": "Walker Group",
-      "catchPhrase": "Innovative web-enabled capability",
-      "bs": "reintermediate mission-critical metrics"
+      "name": "Skiles, Hammes and Ebert",
+      "catchPhrase": "Streamlined reciprocal open system",
+      "bs": "seize robust e-tailers"
     },
-    "gender": "Female",
-    "birthdate": "1955-10-30",
-    "cell": "814.554.6215"
-  }
+    "gender": "Male",
+    "birthdate": "1977-03-03",
+    "cell": "1-948-622-4323 x2506"
+  },
+  "code": 200
 }
 ```
 
