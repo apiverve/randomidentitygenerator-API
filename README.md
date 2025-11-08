@@ -1,5 +1,4 @@
-Random Identity Generator API
-============
+# Random Identity Generator API
 
 Random Identity is a simple tool for generating random identities. It returns a random name, address, and more.
 
@@ -7,52 +6,60 @@ Random Identity is a simple tool for generating random identities. It returns a 
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Javascript Wrapper for the [Random Identity Generator API](https://apiverve.com/marketplace/api/randomidentitygenerator)
+This is a Javascript Wrapper for the [Random Identity Generator API](https://apiverve.com/marketplace/randomidentitygenerator)
 
 ---
 
 ## Installation
-	npm install @apiverve/randomidentitygenerator --save
+
+Using npm:
+```shell
+npm install @apiverve/randomidentitygenerator
+```
+
+Using yarn:
+```shell
+yarn add @apiverve/randomidentitygenerator
+```
 
 ---
 
 ## Configuration
 
-Before using the randomidentitygenerator API client, you have to setup your account and obtain your API Key.  
+Before using the Random Identity Generator API client, you have to setup your account and obtain your API Key.
 You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ---
 
-## Usage
+## Quick Start
 
-The Random Identity Generator API documentation is found here: [https://docs.apiverve.com/api/randomidentitygenerator](https://docs.apiverve.com/api/randomidentitygenerator).  
+[Get started with the Quick Start Guide](https://docs.apiverve.com/quickstart)
+
+The Random Identity Generator API documentation is found here: [https://docs.apiverve.com/ref/randomidentitygenerator](https://docs.apiverve.com/ref/randomidentitygenerator).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
-```
-var randomidentitygeneratorAPI = require('@apiverve/randomidentitygenerator');
-var api = new randomidentitygeneratorAPI({
-    api_key: [YOUR_API_KEY],
-    secure: true //(Optional, defaults to true)
+```javascript
+const randomidentitygeneratorAPI = require('@apiverve/randomidentitygenerator');
+const api = new randomidentitygeneratorAPI({
+    api_key: '[YOUR_API_KEY]'
 });
 ```
 
 ---
 
+## Usage
+
+---
 
 ### Perform Request
-Using the API client, you can perform requests to the API.
 
-###### Define Query
+Using the API is simple. All you have to do is make a request. The API will return a response with the data you requested.
 
-```
-This API does not require a Query
-```
+```javascript
+// This API does not require a Query
 
-###### Simple Request (using Callback)
-
-```
 api.execute(function (error, data) {
     if (error) {
         return console.error(error);
@@ -62,9 +69,48 @@ api.execute(function (error, data) {
 });
 ```
 
-###### Example Response
+---
 
+### Using Promises
+
+You can also use promises to make requests. The API returns a promise that you can use to handle the response.
+
+```javascript
+// This API does not require a Query
+
+api.execute(query)
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error(error);
+    });
 ```
+
+---
+
+### Using Async/Await
+
+You can also use async/await to make requests. The API returns a promise that you can use to handle the response.
+
+```javascript
+async function makeRequest() {
+    // This API does not require a Query
+
+    try {
+        const data = await api.execute(query);
+        console.log(data);
+    } catch (error) {
+        console.error(error);
+    }
+}
+```
+
+---
+
+## Example Response
+
+```json
 {
   "status": "ok",
   "error": null,
@@ -82,8 +128,7 @@ api.execute(function (error, data) {
     "gender": "Female",
     "birthdate": "1961-08-22",
     "cell": "1-275-508-8744 x80019"
-  },
-  "code": 200
+  }
 }
 ```
 
@@ -96,6 +141,7 @@ Need any assistance? [Get in touch with Customer Support](https://apiverve.com/c
 ---
 
 ## Updates
+
 Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Twitter.
 
 ---
